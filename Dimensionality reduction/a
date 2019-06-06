@@ -1,1 +1,4 @@
-
+Dimension Reduction techniques PCA , LDA and Backward Elimination are applied to a dataset to reduce the number of features and keep only 
+the more important features.
+PCA , LDA an Backward elimination have been applied along with decision tree , naive bayes and random forest to compare the results 
+of dimension reduction techniques and also to find out which classifier along with which reduction technique gives the best results.
