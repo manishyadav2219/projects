@@ -35,13 +35,13 @@ courseswithgenres = courseswithgenres.fillna(0)
 
 #Reccomender System
 
-userinput = [
-            {'name':'Breakfast Club, The', 'rating':5},
-            {'name':'Toy Story', 'rating':3.5},
-            {'name':'Jumanji', 'rating':2},
-            {'name':"Pulp Fiction", 'rating':5},
-            {'name':'Akira', 'rating':4.5}
-         ] 
+userInput = [
+            {'name':'TXTU', 'rating':5},
+            {'name':'KXYU', 'rating':3.5},
+            {'name':'MVFG', 'rating':2},
+            {'name':"GBXC", 'rating':5},
+            {'name':'SIBT', 'rating':4.5}
+         ]
 input = pd.DataFrame(userinput)
 
 inputid = courses1_df[courses1_df['name'].isin(input['name'].tolist())]
