@@ -1,0 +1,7 @@
+the attached python files :-
+-> alexnet.py contains code for alexnet model. One time the model is built on input with image size (227,227) and the other    time it is built on input with image size (77,77).
+-> VGG16_and_inception.py contains code for two models. One is for VGG16 and other is for Inception.The image size used is (32,32) to make training process less time consuming.
+-> Mymodel.py contains a new model which i have thought of myself and it is a combination of alexnet and inception model.Image size used is (77,77)
+-> image_augmentation.py contains code for image augmentation.If u feel the need for applying image augmentation in any of the model in the above three files just add the code into that model.
+
+In all the above models SGD optimiser is used .However u can change it to adam or rmsprop. Also number of epochs for training process are taken as ten to reduce the time taken in traini
